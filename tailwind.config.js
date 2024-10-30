@@ -6,7 +6,11 @@ module.exports = {
       'plus': ['Plus Jakarta Sans", sans-serif'],
       
     },
-    extend: {},
+    extend: {
+      colors: {
+        'peraColor': '#878C91',
+      },
+    },
   },
   plugins: [],
 }

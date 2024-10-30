@@ -8,3 +8,23 @@
         margin: 0 auto;
     }
 }
+
+@layer base{
+    a{
+        display: inline-block;
+    }
+}
+
+.line{
+    position: relative;
+}
+
+.line::before{
+    content: "";
+    position: absolute;
+    width: 54px;
+    height: 1px;
+background-color: white;
+bottom: 9px;
+left: 0px;
+}
