@@ -2,3 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities{
+    .middle{
+        max-width: 1280px;
+        margin: 0 auto;
+    }
+}
