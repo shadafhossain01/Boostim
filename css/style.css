@@ -31,9 +31,28 @@
     width: 100%;
     height: 1px;
     background-color: rgb(0, 0, 0);
-    top: -12px;
+    top: -16px;
     left: -8px;
 }
+
+.service .line::before{
+    left: -59px;
+}
+
+.up-bottom{
+    position: relative;
+}
+
+.up-bottom::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(0, 0, 0);
+    bottom:-16px;
+    left: -8px;
+}
+
 
 }
 
